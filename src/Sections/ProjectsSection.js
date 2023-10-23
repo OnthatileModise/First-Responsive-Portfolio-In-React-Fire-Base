@@ -6,7 +6,7 @@ import n from "../images/N+.png"
 
 export default function ProjectsSection() {
     return (
-        <section className="teams" id="Projects">
+        <section className="projects" id="projects">
             <div className="max-width">
                 <h2 className="title">My Projects and Certifications</h2>
                 <div className="carousel owl-carousel">
@@ -41,7 +41,6 @@ export default function ProjectsSection() {
                         </div>
                     </div>
                     <div className="card">
-
                         <div className="box">
                             <img src={git} alt=""/>
                             <a href="https://github.com/OnthatileModise/">

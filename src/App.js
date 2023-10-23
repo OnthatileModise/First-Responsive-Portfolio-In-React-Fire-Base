@@ -15,27 +15,27 @@ function App() {
           </div>
           <nav className="navbar">
               <div className="max-width">
-                  <div className="logo"><a href="#">Ont<span>hati</span>le
+                  <div className="logo"><a href="#home">Ont<span>hati</span>le
                       Mo<span>dis</span>e's<span> Por</span>tfo<span>lio</span></a></div>
                   <ul className="menu">
-                      <li><a href="" className="menu-btn">Home</a></li>
-                      <li><a href="" className="menu-btn">About</a></li>
-                      <li><a href="" className="menu-btn">Services</a></li>
-                      <li><a href="" className="menu-btn">Skills</a></li>
-                      <li><a href="" className="menu-btn">Projects</a></li>
-                      <li><a href="" className="menu-btn">Contact</a></li>
+                      <li><a href="#home" className="menu-btn">Home</a></li>
+                      <li><a href="#about" className="menu-btn">About</a></li>
+                      <li><a href="#services" className="menu-btn">Services</a></li>
+                      <li><a href="#skills" className="menu-btn">Skills</a></li>
+                      <li><a href="#projects" className="menu-btn">Projects</a></li>
+                      <li><a href="#contact" className="menu-btn">Contact</a></li>
                   </ul>
                   <div className="menu-btn">
                       <i className="fas fa-bars"></i>
                   </div>
               </div>
           </nav>
-          <SectionHome/>
-          <AboutSection/>
-          <ServicesSection/>
-          <SkillsSection/>
-          <ProjectsSection/>
-          <ContactSection/>
+          <SectionHome id ="home" className = "home"/>
+          <AboutSection id ="about" className = "about"/>
+          <ServicesSection id ="services" className = "services"/>
+          <SkillsSection id ="skills" className = "skills"/>
+          <ProjectsSection id ="projects" className = "projects"/>
+          <ContactSection id ="contact" className = "contact"/>
           <FooterSection/>
       </>
   );
