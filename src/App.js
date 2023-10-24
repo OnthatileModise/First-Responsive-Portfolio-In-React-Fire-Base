@@ -6,6 +6,8 @@ import SkillsSection from "./Sections/SkillsSection";
 import ProjectsSection from "./Sections/ProjectsSection";
 import ContactSection from "./Sections/ContactSection";
 import FooterSection from "./Sections/FooterSection";
+import ChatBotComponent from "./ChatBot/ChatBot";
+import React from "react";
 
 function App() {
   return (
@@ -26,7 +28,7 @@ function App() {
                       <li><a href="#contact" className="menu-btn">Contact</a></li>
                   </ul>
                   <div className="menu-btn">
-                      <i className="fas fa-bars"></i>
+                      <i className="fas fa-bars" ></i>
                   </div>
               </div>
           </nav>
@@ -37,6 +39,7 @@ function App() {
           <ProjectsSection id ="projects" className = "projects"/>
           <ContactSection id ="contact" className = "contact"/>
           <FooterSection/>
+          <ChatBotComponent />
       </>
   );
 }

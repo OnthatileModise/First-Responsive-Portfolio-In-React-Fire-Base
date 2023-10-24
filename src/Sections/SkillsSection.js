@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import React, { useState } from "react"; 
+import React, { useState } from "react";
 
 const ReadMore = ({ children }) => { 
     const text = children; 
@@ -32,11 +32,10 @@ export default function SkillsSection (){
                         <div className="text">My creative skills & experiences.</div>
                         <p>
                             <ReadMore>
-                                •Object-oriented Programming Fundamentals <br/>
+                                • Object-oriented Programming Fundamentals <br/>
                                 • Advanced HTML5 <br/>
                                 • HTML5 Layout <br/>
                                 • HTML5 Forms <br/>
-                                • HTML5 APIs and Media <br/>
                                 • HTML5 and CSS3 <br/>
                                 • HTML5 Layout with CSS3 <br/>
                                 • HTML5 and Advanced CSS3 <br/>
@@ -44,6 +43,7 @@ export default function SkillsSection (){
                                 • HTML Graphics and Canvas <br/>
                                 • Advanced Feature of JavaScript, CSS3 and HTML5 <br/>
                                 • T-SQL Querying <br/>
+                                • Spring boot APIs <br/>
                                 • Encapsulation, Polymorphism, and Abstraction <br/>
                                 • Interfaces, Lambda Expressions, Collections, and Generics <br/>
                                 • Inheritance, Interfaces, Exceptions, and Deployment <br/>
@@ -66,6 +66,20 @@ export default function SkillsSection (){
                         <div className="bars">
                             <div className="info">
                                 <span>CSS</span>
+                                <span>60%</span>
+                            </div>
+                            <div className="line css"></div>
+                        </div>
+                        <div className="bars">
+                            <div className="info">
+                                <span>React JS.</span>
+                                <span>60%</span>
+                            </div>
+                            <div className="line css"></div>
+                        </div>
+                        <div className="bars">
+                            <div className="info">
+                                <span>Spring boot</span>
                                 <span>60%</span>
                             </div>
                             <div className="line css"></div>

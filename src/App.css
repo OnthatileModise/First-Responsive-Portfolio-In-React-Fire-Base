@@ -384,18 +384,48 @@ section .title::after{
 }
 .skills-content .right .html::before{
   width: 90%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 1px -1px crimson;
+  }
+  to {
+    box-shadow: 0 0 2px 2px crimson;
+  }
+}
+
 .skills-content .right .css::before{
   width: 60%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 .skills-content .right .js::before{
   width: 80%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 .skills-content .right .java::before{
   width: 80%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 .skills-content .right .mysql::before{
   width: 70%;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
 /* teams section styling */
@@ -697,4 +727,47 @@ footer span a:hover{
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+/*Chat Bot CSS*/
+.jjdtuP {
+  background: black;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: fixed;
+  bottom: 32px;
+  top: initial;
+  right: 32px;
+  left: initial;
+  height: 520px;
+  z-index: 999;
+  transform: scale(1);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+  width: 40% !important;
+}
+
+.etMCwJ {
+  animation: gZmgDU 0.3s ease forwards;
+  background: #0F3789;
+  border-radius: 18px 18px 18px 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  max-width: 87% !important;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  position: relative;
+  padding: 12px;
+  transform: scale(0);
+  transform-origin: bottom left;
+}
+
+.jssZJw {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 14px !important;
 }

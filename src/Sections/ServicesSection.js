@@ -8,13 +8,14 @@ export default function ServicesSection (){
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-paint-brush"></i>
-                            <div className="text">Web Design</div>
-                            <p>•	HTML5 and CSS
-                                •	Styling HTML5 and JavaScript
-                                •	Advanced HTML5 and JavaScript
-                                •	HTML5 APIs and Local Data Storage
-                                •	More Advanced HTML5 and CSS3
+                            <div className="text">Web Development</div>
+                            <p> •	HTML5 and CSS.
+                                •	Styling HTML5 and JavaScript.
+                                •	Advanced HTML5 and JavaScript.
+                                •	More Advanced HTML5 and CSS3.
                                 •	Adaptive AI, Graphics, and Animation.
+                                •	React.js
+                                •	Prime faces and JSX
                             </p>
                         </div>
                     </div>
@@ -28,12 +29,14 @@ export default function ServicesSection (){
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-code"></i>
-                            <div className="text">Apps Design</div>
-                            <p>•	Developing Windows and Web Applications
-                                •	Object-oriented Programming Fundamentals
-                                •	Windows Store Applications and Databases
-                                •	Design Principles and Data Manipulation
+                            <div className="text">Back-end Development</div>
+                            <p> •	Developing Secure APIs.
+                                •	Object-oriented Programming Fundamentals.
+                                •	Microsoft SQL Knowledge.
+                                •	Design Principles and Data Manipulation.
                                 •	Creating, Optimizing, and Securing Databases.
+                                •	Spring boot.
+                                •	Docker.
                             </p>
                         </div>
                     </div>
