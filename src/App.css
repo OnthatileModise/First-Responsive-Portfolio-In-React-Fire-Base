@@ -771,3 +771,30 @@ footer span a:hover{
   justify-content: flex-start;
   margin-top: 14px !important;
 }
+
+/*Chat Bot Styles in Production Environment*/
+.bcSHWS {
+  background: black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 12px 24px 0px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 32px;
+  top: initial;
+  right: 32px;
+  left: initial;
+  height: 520px;
+  z-index: 999;
+  transform: scale(1);
+  transform-origin: right bottom;
+  transition: transform 0.3s ease 0s;
+  max-width: 84%;
+  width: 45% !important;
+}
+
+.gmUabJ {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 14px !important;
+}

@@ -20,7 +20,7 @@ const ChatBotComponent = () => (
                 <ChatBot steps={[
                     {
                         id: '1',
-                        message: 'Would you like to here a joke?',
+                        message: 'Would you like to hear a joke?',
                         trigger: '2',
                     },
                     {
