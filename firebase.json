@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "public",
-    "target": "onthatilemodise-sportfoliov1 ",
+    "target": "onthatilemodise-sportfoliov1",
     "ignore": [
       "firebase.json",
       "**/.*",
