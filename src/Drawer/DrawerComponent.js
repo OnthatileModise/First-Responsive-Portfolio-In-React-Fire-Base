@@ -5,22 +5,22 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function  DrawerComponent (props){
-    const {window}  = props;
-    const [mobileOpen , setMobileOpen] = useState(false);
+    // const {window}  = props;
+    // const [mobileOpen , setMobileOpen] = useState(false);
     const drawerWidth = 240;
     const [open, setOpen] = useState(true);
 
 
-    const handleDrawerToggle = () => {
-        setMobileOpen(!mobileOpen);
-    };
+    // const handleDrawerToggle = () => {
+    //     setMobileOpen(!mobileOpen);
+    // };
 
     const handleDrawerOpen = () => {
         console.log("Clicking the drawer button")
         setOpen(true);
     };
 
-    const container = window !== undefined ? () => window().document.body : undefined;
+    // const container = window !== undefined ? () => window().document.body : undefined;
 
     const drawer = (
         <>

@@ -9,7 +9,7 @@ import ContactSection from "./Sections/ContactSection";
 import FooterSection from "./Sections/FooterSection";
 import ChatBotComponent from "./ChatBot/ChatBot";
 import React, {useEffect, useState} from "react";
-import DrawerComponent from "./Drawer/DrawerComponent";
+// import DrawerComponent from "./Drawer/DrawerComponent";
 import handleViewport from 'react-in-viewport';
 
 const App = () => {
