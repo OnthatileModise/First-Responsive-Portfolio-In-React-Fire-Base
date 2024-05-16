@@ -2,7 +2,7 @@
 import ReactTyped from "react-typed";
 import React from "react";
 
-export default function SectionHome() {
+export const SectionHome = () => {
     // Home  Section start
     return <section className="home" id="home">
         <div className="max-width">

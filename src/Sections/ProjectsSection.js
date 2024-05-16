@@ -12,7 +12,7 @@ export default function ProjectsSection() {
             <div className="max-width">
                 <h2 className="title">My Projects and Certifications</h2>
                 <div className="carousel owl-carousel">
-                    <Carousel autoPlay={true} infiniteLoop={true} showStatus={false}>
+                    <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
                         <div className="card">
                             <div className="box">
                                 <img src={mrsPatBakery} alt=""/>
