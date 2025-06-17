@@ -72,7 +72,7 @@ section .title::after{
   position: absolute;
   bottom: -8px;
   left: 50%;
-  font-size: 20px;
+  font-size: 40%;
   color: crimson;
   padding: 0 5px;
   background: #fff;
@@ -296,7 +296,7 @@ section .title::after{
 
 /* services section styling */
 .services{
-  animation: lightSpeedInRight linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInLeft linear normal; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
   animation-range: entry;
 }
@@ -359,7 +359,7 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-  animation: bounceInLeft linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInLeft linear normal; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
   animation-range: entry;
 }
@@ -368,7 +368,7 @@ section .title::after{
   content: "what i know";
 }
 .skills .skills-content .column{
-  width: calc(50% - 30px);
+  width: 100%;
 }
 .skills .skills-content .left .text{
   font-size: 20px;
@@ -424,9 +424,20 @@ section .title::after{
 .skills-content .right .html::before{
   width: 90%;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
+}
+
+.underline{
+  background-color: crimson;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 9px;
+}
+
+.header-container{
+  width: fit-content
 }
 
 @keyframes bounce-in {
@@ -443,32 +454,54 @@ section .title::after{
 }
 
 .skills-content .right .css::before{
-  width: 60%;
+  width: 80%;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
+}
+
+.skills-content .right .sb::before{
+  width: 90%;
+  text-align: center;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
 }
 .skills-content .right .js::before{
   width: 80%;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
+}
+.skills-content .right .aj::before{
+  width: 50%;
+  text-align: center;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
+}
+.skills-content .right .tl::before{
+  width: 50%;
+  text-align: center;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
 }
 .skills-content .right .java::before{
   width: 80%;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
 }
 .skills-content .right .mysql::before{
   width: 70%;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glows 1s ease-in-out infinite alternate;
+  -moz-animation: glows 1s ease-in-out infinite alternate;
+  animation: glows 1s ease-in-out infinite alternate;
 }
 
 /* teams section styling */
@@ -493,6 +526,7 @@ section .title::after{
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  height: 50vh;
 }
 .projects .carousel .card:hover .box{
   transform: scale(1.05);
@@ -537,7 +571,7 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-  animation: heartBeat linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation: fadeInLeft linear normal; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
   animation-range: entry;
 }
@@ -822,6 +856,10 @@ footer span a:hover{
   margin-top: 14px !important;
 }
 
+.bgbxBZ{
+  width: 40% !important;
+}
+
 /*Chat Bot Styles in Production Environment*/
 .bcSHWS {
   background: black;
@@ -1081,6 +1119,15 @@ footer span a:hover{
   70% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+
+@keyframes glows {
+  from {
+  }
+
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 5px crimson, 0 0 5px crimson, 0 0 5px crimson, 0 0 5px crimson, 0 0 5px crimson, 0 0 5px crimson;
   }
 }
 

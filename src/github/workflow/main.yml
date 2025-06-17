@@ -21,6 +21,8 @@ jobs:
         with:
           name: build
           path: build
+          env:
+            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
   deploy:
     name: Deploy
     needs: build
@@ -39,3 +41,4 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

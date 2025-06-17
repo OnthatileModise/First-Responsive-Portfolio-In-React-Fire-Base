@@ -1,7 +1,7 @@
 import Thato2 from "../images/Thato2.jpg"
-import ReactTyped from "react-typed";
 import { Button } from "@mui/material";
 import pdf from "../cv/Onthatile Modise CV.pdf"
+import { ReactTyped } from "react-typed";
 
 export default function AboutSection (){
 
@@ -24,9 +24,15 @@ export default function AboutSection (){
                         <img src={Thato2} alt=""/>
                     </div>
                     <div className="column right">
-                        <div className="text">I'm Onthatile and I'm a <ReactTyped strings={["Software Engineer","Web Developer", "IT Systems Speciaist"]} typeSpeed={180} loop/></div>
-                        <p>An enthusiastic and knowledgeable young person, I am flexible, resourceful and willing to
-                            take full ownership of user problems until they are fully resolved.</p>
+                        <div className="text">I'm Onthatile and I'm a <ReactTyped strings={["Intermediate Software Engineer","Web Developer", "Backend Developer"]} typeSpeed={100} loop/></div>
+                        <p>Results-driven and detail-oriented Software Engineer with
+                            over 3+ years of professional experience in designing,
+                            developing, and maintaining robust and scalable
+                            applications. Strong background in Java, Spring Boot, React,
+                            and Angular with a solid understanding of system
+                            architecture, DevOps, and technical support. Highly
+                            adaptable, self-motivated, and a proactive team player who
+                            thrives in fast-paced, collaborative environments.</p>
                         <Button onClick={handleCVDownload}>Download CV</Button>
                     </div>
                 </div>

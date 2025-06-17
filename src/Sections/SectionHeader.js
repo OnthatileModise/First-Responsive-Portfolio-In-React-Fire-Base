@@ -1,5 +1,5 @@
 
-import ReactTyped from "react-typed";
+import {ReactTyped} from "react-typed";
 import React from "react";
 
 export const SectionHome = () => {
@@ -9,7 +9,7 @@ export const SectionHome = () => {
             <div className="home-content">
                 <div className="text-1">Hello, my name is</div>
                 <div className="text-2">Onthatile Modise</div>
-                <div className="text-3">And I'm a <ReactTyped strings={["Software Engineer","Web Developer", "IT Systems Specialist"]} typeSpeed={180} loop/></div>
+                <div className="text-3">And I'm a <ReactTyped strings={["Intermediate Software Engineer","Web Developer", "Backend Developer"]} typeSpeed={100} loop/></div>
                 <a href="https://www.linkedin.com/in/onthatile-modise-02bba618b/">Hire me</a>
             </div>
         </div>
