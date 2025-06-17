@@ -914,6 +914,18 @@ footer span a:hover{
   }
 }
 
+@media screen and (max-width: 568px) {
+  .eiIAPw {
+    border-radius: 0px;
+    height: 100%;
+    width: 100% !important;
+    bottom: 0px !important;
+    left: initial !important;
+    right: 0px !important;
+    top: initial !important;
+  }
+}
+
 /*Animations*/
 
 @keyframes zoomInDown {
