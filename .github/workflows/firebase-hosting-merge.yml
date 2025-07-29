@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Export Gemini API Key
+        run: echo "REACT_APP_GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> $GITHUB_ENV
       - run: npm install --legacy-peer-deps
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
