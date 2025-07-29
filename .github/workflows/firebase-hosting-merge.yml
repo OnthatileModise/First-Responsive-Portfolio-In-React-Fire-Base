@@ -21,3 +21,4 @@ jobs:
           projectId: onthatilemodise-sportfoliov1
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
